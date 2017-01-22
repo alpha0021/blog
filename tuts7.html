@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CREATING POST  USING JQUERY.</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<style>
+		blockquote.co{
+			float: right;
+			background:#e3e3e3;
+			font-size: 2em;
+			width:25%;
+			text-align: center;
+
+		}
+		article{
+			width: 600px;
+			margin: auto;
+		}
+		
+	</style>
+</head>
+<body>
+		<article>
+			<h1>Winter In Torino.</h1>
+			<p>
+				
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				<span class=co>Click to see images</span>,
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.. <span class=co>Images from la  stampa.</span> 
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				
+				Torino is  the  most  beautiful city in the whole italy.Specially in the  summer season 
+				torino looks  so  nice and gorgeous specially  in the park and  river side area.
+			</p>
+			<p>
+				
+			</p>
+		</article>
+
+		<script>
+		    (function(){
+
+        		var co = $('span.co').each(function(){
+        			var $this =$(this);
+        			$('<blockquote></blockquote>',{
+        				class:'co',
+        				text:$this.text()
+        			}).prependTo($this.closest('p'));
+        		});
+        })();
+		</script>
+</body>
+</html>
